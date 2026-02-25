@@ -38,7 +38,7 @@ const BANNED_USERS = [
 ];
 
 // CSV 복사 기능 관리자 비밀번호
-const ADMIN_PASSWORD = '0415405841-2025-2-0821';
+const ADMIN_PASSWORD = '0415405841-2026-1-0225';
 
 const KST_OFFSET_MIN = 9 * 60; // KST +09:00
 // ===================
@@ -390,4 +390,5 @@ $confirmationCloseBtn.onclick = closeConfirmationModal;
 
 renderRoomTabs();
 renderWeekTabs();
+
 attachBookingsListener();
